@@ -5,10 +5,11 @@
  
  <!--- To correct CSS implementation follow this guide:  
 
-  https://docs.djangoproject.com/en/3.2/intro/tutorial06/
-
- <link rel="stylesheet" href="./style.css" />
+  https://docs.djangoproject.com/en/3.2/intro/tutorial06/  
 -->
+
+  {% load static %}
+ <link rel="stylesheet" href="{ % static 'style.css' % }" />
 </head>
 <body>
  
